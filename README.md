@@ -11,19 +11,23 @@
 - [Recommendation](#recommendation)
 
 ### Project Overview
+---
 The project involved predicting used car prices through machine learning, utilizing data cleaning, feature engineering, and model exploration, ultimately selecting Random Forest for its high accuracy and low Mean Absolute Error, providing insights for optimizing used car inventory and pricing strategies.
 The motivation behind this project arises from the inherent complexity of pricing used vehicles. The value of a used car is influenced by a myriad of factors, making it a challenging task for both sellers and buyers to determine a fair price. Car dealerships and online marketplaces can benefit from accurate price predictions to optimize their inventory. By ensuring the right mix of vehicles at prices aligned with market demand, businesses can maximize profitability and competitive advantage. Sellers can also utilize predicted prices to develop effective pricing strategies, attracting potential buyers while optimizing revenue.
 
 ### Data Sources
+---
 Vehicles Data: The primary dataset used for this analysis is vehicles.csv, obtained from Kaggle. The dataset used for this project is a robust collection of used vehicle listings from Craigslist within the United States. 
 
 ### Tools
+---
 - Excel
   - [Download here](https://microsoft.com)
 - Jupyter Notebook
   - [Download here](https://www.anaconda.com/)
 
 ### Data Cleaning and Preprocessing
+---
 
 #### Actions Taken:
 1. Reviewed and dropped irrelevant columns 
@@ -35,6 +39,7 @@ Vehicles Data: The primary dataset used for this analysis is vehicles.csv, obtai
     - Insights into central tendency, spread, and distribution characteristics
   
 ### Exploratory Data Analysis
+---
 EDA involved exploring vehicles data to answer key questions
 #### Outlier Removal:
 - Method Used: 
@@ -48,6 +53,7 @@ EDA involved exploring vehicles data to answer key questions
 - Feature Importance Evaluation
 
 ### Model Inferences
+---
 - LINEAR REGRESSION
    - From the R2 value obtained, it can be seen that the LR model was able to explain 71% of the variance in price.
    - However, considering that a significant portion (at least 75%) of the cars in the dataset are priced below $20,000, a mean absolute error of $4,403 is very high.
@@ -76,10 +82,12 @@ EDA involved exploring vehicles data to answer key questions
 
 
 ### Conclusion
+---
 After deploying many models like Linear,Polynomial,LASSO-ridge,KNN and Random forest,\
 Random Forest was chosen as the preferred model for drawing accurate price predictions with the R2 value of 91% and the lowest Mean Absolute Error which indicates effectiveness in providing results closest to real values.
 
 ### Recommendation
+---
 In the future, try experimenting with the parameters associated with Random Forest Regression can reduce overfitting
 
 
